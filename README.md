@@ -20,7 +20,7 @@
 2. Notice the red outline in the screenshot, we want to select that Linux OS. To do that click on `Click Here`
 You should now see a screen that looks like this:
 
-<img src="https://user-images.githubusercontent.com/87505099/203105276-3d8856ec-e3b9-4591-8c2e-acd016dea99f.png" width=600>![Screenshot 2022-11-21 at 12 19 37 PM](https://user-images.githubusercontent.com/87505099/203119593-64cd3e90-204d-4103-8321-ad27149ed476.png)
+<img src="https://user-images.githubusercontent.com/87505099/203105276-3d8856ec-e3b9-4591-8c2e-acd016dea99f.png" width=600>
 
 
 This is a Linux OS terminal, which is just a command line way of interacting with your OS. All OS today have a command line way of interaction.
@@ -31,9 +31,11 @@ For this exercise, we will create two scripts that display "Hello World, my name
 We will do this two different ways!
  
 1. In your new Linux Terminal, type:  
-  ```echo "echo \"Hello World, my name is David."\" > hello.sh```
+  ```echo "echo \"Hello World, my name is David."\" > hello.sh```   
+ In bash, the `echo` command is used to print things to the terminal output
 2. Now type:   
-  ```chmod 755 hello.sh```
+  ```chmod 755 hello.sh```   
+ In bash, the `chmod` command is used to change the permissions on a folder or file
 3. Now run it!   
   ```./hello.sh```
 
