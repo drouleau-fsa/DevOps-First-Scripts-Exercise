@@ -26,4 +26,44 @@ This is a Linux OS terminal, which is just a command line way of interacting wit
 In this terminal we can type commands and do things (create/move/update/delete files and folders, launch applications, user administration, etc.).
 For this exercise, we will create two scripts that display "Hello World, my name is <Insert Your Name Here>."
 
+#### Creating the Bash Script
+We will do this two different ways!
+ 
+1. In your new Linux Terminal, type:  
+  ```echo "echo \"Hello World, my name is David."\" > hello.sh```
+2. Now type:   
+  ```chmod 755 hello.sh```
+3. Now run it!   
+  ```./hello.sh```
 
+![Screenshot 2022-11-21 at 11 42 34 AM](https://user-images.githubusercontent.com/87505099/203111351-8a8a13b8-00c0-47f2-af35-19168abc30b9.png)
+
+If you see the desired output of "Hello World, my name is <Your Name>." as shown in the above screenshot, congrats! You have successfully created your first Bash Script!
+ 
+ #### Bash Script x2
+ Now let's do it another way, using a text editor!
+ 1. In your Linux terminal, type:  
+ ```clear```  
+ This is a very common and useful command to clear your terminal screen
+ 2. Now type:   
+ ```vim hello2.sh```  
+ A new window will display with a green blinking cursor at the top
+ 3. Now press `i`
+ 4. Now type:  
+ ```echo "Hello World x2, my name is <Insert Your Name Here>"```
+ 5. Now press `esc` (top left hand corner of your keyboard)
+ 6. Now type:  
+ ```:wq!```  
+ If successful, your terminal screen should now display the message ```"hello2.sh" [New] 1L, 41B written```
+ 7. Now type:  
+ ```chmod 755 hello2.sh```
+ 8. Now run it!  
+ ```./hello2.sh```  
+ Your output should look similar to the below screenshot:  
+
+ <img src="https://user-images.githubusercontent.com/87505099/203114678-6a3eec81-d27e-4dfc-98e8-71b8286108e4.png" width=600>
+
+ 
+#### Now in Python!
+
+ 
