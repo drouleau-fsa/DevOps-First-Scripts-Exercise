@@ -1,4 +1,4 @@
-# DevOps-First-Scripts-Exercise
+# DevOps Hello World Script Exercise
 
 ## Welcome to the DevOps First Class Scripting Exercise!
 
